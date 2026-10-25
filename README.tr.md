@@ -17,6 +17,12 @@ CHIP-8, 1970'lerde COSMAC VIP gibi ilk mikrobilgisayarlar için oyun yazmayı ko
 
 Emülatör ROM dosyasını belleğe yükler ve gerçek işlemcilerin kullandığı **fetch → decode → execute** (getir → çöz → çalıştır) döngüsüyle komutları tek tek çalıştırır.
 
+## Neden Yaptım
+
+Bu projeyi C++ öğrenmek ve bir işlemcinin perde arkasında gerçekte nasıl çalıştığını anlamak için yaptım. Daha önce hiç C++ yazmamıştım.
+
+Proje **yapay zekâ desteğiyle** geliştirildi: mimariyi planlamak, kodu adım adım yazıp açıklamak ve derleme sorunlarını çözmek için bir yapay zekâ asistanı kullandım. Bu süreçte bellek, register'lar, stack ve fetch → decode → execute döngüsünün nasıl çalıştığını, ayrıca CMake ve SDL2 ile bir C++ projesinin nasıl kurulduğunu öğrendim.
+
 ## Ekran Görüntüleri
 
 | IBM logosu | Opcode testi (Timendus seti) |
