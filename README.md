@@ -17,6 +17,12 @@ CHIP-8 is a simple virtual machine designed in the 1970s to make writing games f
 
 The emulator reads a ROM file into memory and runs it instruction by instruction, using the same **fetch → decode → execute** cycle that real CPUs use.
 
+## Why I Built This
+
+I built this project to learn C++ and to understand how a CPU actually works under the hood. Before this, I had never written C++.
+
+It was developed **with the help of AI**: I used an AI assistant to plan the architecture, write and explain the code step by step, and debug build issues. Along the way I learned how memory, registers, the stack and the fetch → decode → execute cycle work, and how to set up a C++ project with CMake and SDL2.
+
 ## Screenshots
 
 | IBM logo | Opcode test (Timendus suite) |
